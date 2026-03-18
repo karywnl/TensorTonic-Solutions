@@ -9,4 +9,5 @@ def matrix_transpose(A):
     for i in range(rows):
         for j in range(cols):
             result[j][i] = A[i][j]
-    return result            
+            
+    return result
